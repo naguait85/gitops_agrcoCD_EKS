@@ -1,4 +1,4 @@
-# gitops-multienv-vote
+# gitops-multienv-vote applciation for testing
 
 Deploy **multiple environments** on **multiple EKS clusters** with **ArgoCD**. 
 
