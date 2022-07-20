@@ -33,6 +33,7 @@ jobs:
       - name: Delete repository
         run: |
           aws ecr delete-repository \
+            --force \
             --repository-name ${{ env.ECR_REPOSITORY }} \
             --query 'repository.repositoryUri' \
             --output text \
